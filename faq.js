@@ -66,11 +66,11 @@ function btnStatusUpdate(e) {
   let answerState = e.currentTarget.parentElement.nextSibling.style.display;
   if(answerState == 'none'){
     e.currentTarget.parentElement.nextSibling.style.display = "block"
-    btn.textContent = "-";
+    e.currentTarget.textContent = "-";
   }
   else{
     e.currentTarget.parentElement.nextSibling.style.display = "none"
-    btn.textContent = "+";
+    e.currentTarget.textContent = "+";
   }
 }
 
